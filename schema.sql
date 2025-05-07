@@ -68,8 +68,4 @@ CREATE TABLE book_to_genre (
 );
 
 
--- resetting auto increment
-set @num:= 0;
-UPDATE my_table SET id = @num:= (@num + 1);
-ALTER TABLE my_table AUTO_INCREMENT = 1;
 
